@@ -1,0 +1,4 @@
+{
+    "port":5000,
+    "uri":"mongodb+srv://qwe123:qwe123@qwe123.sgdyo.mongodb.net/?retryWrites=true&w=majority"
+}

@@ -1,0 +1,13 @@
+async function connect To(){
+try{
+await mongo.connect(config.get('uri',{urlNewUserParse:
+app.listen(PORT,()=>{
+console.log(`port${PORT}`)})
+}catch(e){
+console.log(e)
+}
+connectTo()
+
+Пароль монгуста
+bfEBRnAhRSpxOxRj
+async позволяет встраивать в общий поток доп. параметры, которые нужны для работы с данными

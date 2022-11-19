@@ -1,0 +1,17 @@
+<br>
+<nav class="nav" style=" text-align: center; font-family: 'Lato', sans-serif; font-size: 50px; ">
+_<a class="navHome" style=" padding: 5px 15px; text-decoration: none; color: fuchsia; border: black 5px solid" href="/">Home</a> __
+    <a style="padding: 5px 15px; text-decoration: none; color: fuchsia; border: black 5px solid" href="/login">Reg & Auth</a>
+
+<!--{{#if isAuth}}
+    <a href="/logout">Выйти</a>
+    {{else}}
+    <a href="/logout">Выйти</a>
+    {{/if}}-->
+
+{{#if isAdminka}}
+    <a  href="/next">next</a>
+    {{else}}__
+    <a style="padding: 5px 15px; text-decoration: none; color: fuchsia; border: black 5px solid" href="/next">next</a>_
+    {{/if}}
+</nav>

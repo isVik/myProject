@@ -1,0 +1,39 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "bfEBRnAhRSpxOxRj"
+  ],
+  "author": "vik",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "app": "^0.1.0",
+    "config": "^3.3.7",
+    "connect-mongodb-session": "^3.1.1",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.3",
+    "fn": "^0.2.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "mongodb-redact": "^0.2.2",
+    "mongoose": "^6.2.7",
+    "mongoose-session": "^0.0.4",
+    "node": "^17.7.2",
+    "normalize-mongo-id": "^2.0.0",
+    "patch": "^0.0.1",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.15"
+  }
+}

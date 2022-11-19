@@ -1,0 +1,10 @@
+{{#if model.length}}
+{{#each model}}
+<div>
+    <h1>{{info}}</h1>
+    <h2>{{tooinfo}}</h2>
+    <a href="/about/{{id}}/redact">redact </a> <br>
+    <a href="/about/{{id}}">about</a>
+</div>
+{{/each}}
+{{/if}}

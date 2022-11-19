@@ -1,0 +1,17 @@
+
+<form action="/about/redact" method="post">
+    <input type="text"name = "info" value="{{mod.info}}">
+    {{!-- {{имя не меняется значение берем из БД инфо}} --}}
+    <input type="text"name="tooinfo" value="{{mod.tooinfo}}">
+    <input type="hidden"name="id" value="{{mod.id}}">
+<button type="submit">save</button>
+    {{!-- {{хранит id этой записи во время загрузки
+    submit- кнопка для отправки данных
+    }} --}}
+</form>
+
+<form action="/about/delete" method="post">
+    <input type="hidden"name="id" value="{{mod.id}}">
+    <button type="submit">delete</button>
+</form>
+
